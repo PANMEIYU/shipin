@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<title></title>
+		
+	</head>
+	<body>
+			
+		<video id="myvideo"  controls>
+			<source  src="https://wxapp.gdnlw.com/web/uploads/mall4/20231007/6b2002423d67c03aa1860a324a51eee4.mp4"  type="video/mp4" />
+		</video>
+		<script>
+		    var elevideo = document.getElementById("myvideo");
+		    elevideo.addEventListener('ended', function () { //结束
+		       //视频播放完毕后执行得代码
+		       window.location.href = "https://wxapp.gdnlw.com/plugins/mobile/h5/mall/4/?#/"
+		    }, false);
+		</script>
+	</body>
+</html>
